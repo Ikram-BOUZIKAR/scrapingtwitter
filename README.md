@@ -1,4 +1,4 @@
-# AI-Based Twitter/X Mining for News Distribution and Public Discourse Analysis
+# AI-Based Twitter/X Mining for Public Discourse Analysis | Web Data Analysis
 
 ## Project Overview
 
