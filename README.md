@@ -1,57 +1,85 @@
-# Twitter Scraping and News Distribution Data Pipeline
+# AI-Based Twitter/X Mining for News Distribution and Public Discourse Analysis
 
-This repository contains Python code and notebooks for collecting, preprocessing, and analyzing
-large-scale Twitter/X data for socio-digital discourse research.
+## Project Overview
 
-It was developed to support research on algorithmic content distribution, engagement patterns,
-sentiment dynamics, and informational representativeness — directly aligned with AI-driven
-analysis of online news and social media.
+This repository contains Python pipelines and research notebooks for collecting, preprocessing, and analysing large-scale Twitter/X data to study news distribution, algorithmic amplification, and public discourse dynamics.
+
+The project investigates how social media platforms shape information exposure, engagement signals, and sentiment polarisation — aligning with research in AI-driven analysis of news media and computational social science.
 
 ---
 
-## 📂 Repository Contents
+## 🎯 Research Objectives
+
+This work supports research on:
+
+- AI-mediated news distribution
+- Algorithmic amplification and engagement bias
+- Sentiment and discourse polarization
+- Representativeness of public opinion signals
+- Detection of informational asymmetries
+
+The pipeline is designed to extract scalable engagement signals from thousands to millions of social media posts, suitable for modelling news feed behaviour and content moderation analysis.
+
+---
+
+## 📂 Repository Structure
 
 ### `src/`
-Contains data collection, preprocessing, and analysis scripts.
+Core data pipeline scripts:
 
-- `collect_data.py`: Twitter/X API scraping with rate-limit handling
-- `preprocess.py`: Cleaning and normalization of text data
-- `analysis.py`: Exploratory analysis and basic sentiment extraction
-- `utils.py`: Helper functions
+- `collect_data.py` – Twitter/X API scraping with rate-limit handling
+- `preprocess.py` – NLP cleaning and normalization
+- `analysis.py` – Engagement metrics and sentiment analysis
+- `utils.py` – Utility functions
 
 ### `notebooks/`
-Interactive Jupyter notebooks showcasing data pipelines and results:
 
-- `EDA.ipynb`: Exploratory Data Analysis
-- `Sentiment_Analysis.ipynb`: Sentiment classification
-- `Topic_Modeling.ipynb`: Topic detection and discourse patterns
+- `EDA.ipynb` – Exploratory Data Analysis
+- `Sentiment_Analysis.ipynb` – Sentiment classification workflow
+- `Topic_Modeling.ipynb` – Topic extraction and discourse mapping
 
 ### `data/`
-Directory for intermediate data (not uploaded on GitHub for privacy/size). Includes:
-- sample JSON / CSV subsets for reproducibility
+
+Intermediate structured datasets (not publicly uploaded for ethical/privacy reasons).
 
 ---
 
-## 🧠 Purpose & Research Context
+## 🧠 Methods
 
-This project demonstrates:
-
-- Large-scale social media data collection
-- NLP preprocessing (tokenization, cleaning, normalization)
-- Sentiment classification
-- Engagement and distribution pattern analysis
-- Data pipelines suitable for machine learning
-
-It reflects my ability to develop research-oriented computational workflows, a key skill
-for PhD research in AI, NLP, and news distribution modelling.
+- Python-based data pipelines
+- API-based large-scale data extraction
+- NLP preprocessing (tokenization, lemmatization, normalization)
+- Sentiment analysis
+- Topic modelling
+- Engagement signal extraction
+- Distribution pattern analysis
 
 ---
 
-## 📊 Example Code Snippet
+## ⚖ Responsible AI & Ethics
 
-```python
-from src.collect_data import collect_tweets
+- Only publicly available data collected
+- No private data stored
+- Reproducible and transparent workflow
+- Designed with awareness of algorithmic bias and representativeness issues
 
-query = "#election2025"
-tweets = collect_tweets(query, max_tweets=10000)
-print(tweets.head())
+---
+
+## 📈 Research Positioning
+
+This project demonstrates competencies required for PhD research in:
+
+- Data Science
+- Natural Language Processing
+- Social Media Analytics
+- Responsible AI
+- News Feed Algorithm Analysis
+- Computational Social Science
+
+---
+
+## Author
+
+Ikram Bouzikar  
+Digital Media Researcher | Platform Behaviour Analyst  
+ORCID: https://orcid.org/0000-0002-7174-2971
