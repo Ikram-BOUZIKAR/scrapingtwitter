@@ -76,6 +76,42 @@ This project demonstrates competencies required for PhD research in:
 - News Feed Algorithm Analysis
 - Computational Social Science
 
+- ## 🔬 Methodological Framework
+
+The data pipeline follows a structured computational social science workflow:
+
+1. Data Collection  
+   - Twitter/X API scraping  
+   - Query-based extraction (hashtags, keywords)  
+   - Rate-limit handling and structured JSON storage  
+
+2. Data Preprocessing  
+   - Tokenization  
+   - Stop-word removal  
+   - Normalization  
+   - Language filtering  
+
+3. Analytical Modules  
+   - Sentiment analysis (lexicon-based & ML-ready structure)  
+   - Topic modelling  
+   - Engagement signal extraction (retweets, replies, likes)  
+   - Distribution bias observation  
+
+4. Scalability Potential  
+   The pipeline is structured to support large-scale modelling, 
+   recommender system evaluation, and representativeness analysis.
+
+## 🚀 Research Extension Potential
+
+This repository can be extended toward:
+
+- Bias correction modelling  
+- Public opinion mining  
+- Algorithmic amplification detection  
+- Fair and explainable recommender systems  
+- Large-scale discourse representativeness modelling  
+
+
 ---
 
 ## Author
