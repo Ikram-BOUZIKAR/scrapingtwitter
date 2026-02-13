@@ -81,5 +81,6 @@ This project demonstrates competencies required for PhD research in:
 ## Author
 
 Ikram Bouzikar  
-Digital Media Researcher | Platform Behaviour Analyst  
+AI Driven Society | Digital Media Researcher | Platform Behaviour Analyst  
 ORCID: https://orcid.org/0000-0002-7174-2971
+Website : www.ikram-bouzikar.com
