@@ -109,7 +109,13 @@ This repository can be extended toward:
 - Public opinion mining  
 - Algorithmic amplification detection  
 - Fair and explainable recommender systems  
-- Large-scale discourse representativeness modelling  
+- Large-scale discourse representativeness modelling
+- ## Data Availability
+
+Due to Twitter/X terms of service and ethical research considerations,
+raw datasets are not publicly shared.
+
+This repository documents the methodology and analysis pipeline only.
 
 
 ---
