@@ -37,3 +37,33 @@ Search queries were structured as:
 - Time-bounded archive search
 
 Example query format:
+---
+
+## Data Format
+
+Raw data was stored in JSONL format.
+Converted to CSV for preprocessing and analysis.
+
+---
+
+## Data Volume
+
+Collections ranged from:
+- 20 tweets (test extractions)
+- Up to 100,000+ tweets for large controversy analysis
+
+---
+
+## Ethical Considerations
+
+- Only publicly available tweets were collected
+- No private accounts accessed
+- No personal data redistributed
+- Raw datasets are not shared publicly
+
+---
+
+## Current Status
+
+API access is no longer active.
+This repository documents the research workflow and methodology only.
